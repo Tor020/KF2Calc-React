@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* Importing Framework */
+/* Importing Bulma Overwrites FIles */
+/*! bulma.io v0.6.1 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");
+
+/*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box; }
+
+* {
+  box-sizing: inherit; }
+  *:before, *:after {
+    box-sizing: inherit; }
+
+html {
+  background-color: white;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+body {
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5; }
+
+html {
+  background-color: white;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+body {
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: none;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.25em;
+  justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(0.375em - 1px);
+  padding-left: calc(0.625em - 1px);
+  padding-right: calc(0.625em - 1px);
+  padding-top: calc(0.375em - 1px);
+  position: relative;
+  vertical-align: top;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: white;
+  border-color: #dbdbdb;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  text-align: center;
+  white-space: nowrap; }
+  .button:focus, .button:active {
+    outline: none; }
+  .button:hover {
+    border-color: #b5b5b5;
+    color: #363636; }
+  .button:focus {
+    border-color: #72d0eb;
+    color: #363636; }
+    .button:focus:not(:active), .button.is-focused:not(:active) {
+      box-shadow: 0 0 0 0.125em rgba(114, 208, 235, 0.25); }
+  .button:active {
+    border-color: #4a4a4a;
+    color: #363636; }
+      .button.is-white.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25); }
+      .button.is-black.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(10, 10, 10, 0.25); }
+      .button.is-light.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(245, 245, 245, 0.25); }
+      .button.is-dark.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(54, 54, 54, 0.25); }
+      .button.is-primary.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25); }
+      .button.is-link.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(114, 208, 235, 0.25); }
+      .button.is-info.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(32, 156, 238, 0.25); }
+      .button.is-success.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25); }
+      .button.is-warning.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25); }
+      .button.is-danger.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(255, 71, 15, 0.25); }
+      .button.is-twitter.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(85, 172, 238, 0.25); }
+      .button.is-linkedin.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(0, 119, 181, 0.25); }
+      .button.is-github.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(51, 51, 51, 0.25); }
+
+@media screen and (min-width: 1024px) {
+  a.navbar-item.is-active:not(:hover),
+  a.navbar-link.is-active:not(:hover) {
+    background-color: transparent; } }
+
+/* Importing All Base Utilities */
+body {
+  font-family: 'Roboto', sans-serif; }
+
+div {
+  margin: 0; }
+
+/* Importing Layout FIles */
+html {
+  font-size: 16px; }
+
+body {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #eee; }
